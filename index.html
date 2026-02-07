@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Identity Guardian</title>
+</head>
+<body>
+  <h2>Automated KYC Verification</h2>
+
+  <form action="/verify" method="POST" enctype="multipart/form-data">
+    <div>
+      <label>ID Card:</label>
+      <input type="file" name="idCard" required />
+    </div>
+
+    <div>
+      <label>Selfie:</label>
+      <input type="file" name="selfie" required />
+    </div>
+
+    <br />
+    <button type="submit">Verify Identity</button>
+  </form>
+</body>
+</html>
